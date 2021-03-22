@@ -1,0 +1,103 @@
+<div class="contact-container container-block">
+  <ul class="list-unstyled contact-list">
+
+    {% if sidebar.email %}
+    <li class="email"><i class="fas fa-envelope"></i>
+      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.phone %}
+    <li class="phone"><i class="fas fa-phone"></i>
+      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.telegram %}
+    <li class="telegram"><i class="fab fa-telegram"></i>
+      <a href="https://t.me/{{ sidebar.telegram }}" target="_blank">{{ sidebar.telegram }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.website %}
+    <li class="website"><i class="fas fa-globe-americas"></i>
+      <a href="http://{{ sidebar.website }}" target="_blank">{{ sidebar.website }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.linkedin %}
+    <li class="linkedin"><i class="fab fa-linkedin"></i>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.github %}
+    <li class="github"><i class="fab fa-github"></i>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.gitlab %}
+    <li class="gitlab"><i class="fab fa-gitlab"></i>
+      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.bitbucket %}
+    <li class="bitbucket"><i class="fab fa-bitbucket"></i>
+      <a href="http://bitbucket.com/{{ sidebar.bitbucket }}" target="_blank">{{ sidebar.bitbucket }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.twitter %}
+    <li class="twitter"><i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ sidebar.twitter }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.stack-overflow %}
+    <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.codewars %}
+    <li class="codewars"><i class="fas fa-code"></i>
+      <a href="https://www.codewars.com/users/{{ sidebar.codewars }}/completed_solutions" target="_blank">{{ sidebar.codewars }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.goodreads %}
+    <li class="goodreads-g"><i class="fab fa-goodreads-g"></i>
+      <a href="https://www.goodreads.com/user/show/89097524-{{ sidebar.goodreads }}" target="_blank">{{ sidebar.goodreads }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.researchgate %}
+    <li class=""><i class="ai ai-researchgate ai-1_5x"></i>
+      <a href="http://www.researchgate.net/profile/{{ sidebar.researchgate }}" target="_blank">{{ sidebar.researchgate }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.google-scholar %}
+    <li class=""><i class="ai ai-google-scholar ai-1_5x"></i>
+      <a href="https://scholar.google.com/citations?user={{ sidebar.google-scholar }}" target="_blank">{{ sidebar.google-scholar }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.zotero %}
+    <li><i class="ai ai-zotero ai-1_5x"></i>
+      <a href="https://www.zotero.org/groups/2845679/{{ sidebar.zotero }}" target="_blank">{{ sidebar.zotero }}</a>
+    </li>
+    {% endif %}
+
+    {% if sidebar.orcid %}
+    <li><i class="ai ai-orcid ai-1_5x"></i>
+      <a href="orcid.org/{{ sidebar.orcid }}" target="_blank">{{ sidebar.orcid }}</a>
+    </li>
+    {% endif %}
+
+
+
+  </ul>
+</div><!--//contact-container-->

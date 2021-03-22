@@ -1,0 +1,245 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Andy Beet
+    tagline: Research Scientist & Analyst
+    avatar: avatar.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: andrew.beet@noaa.gov
+    phone:
+    website: #do not add http://
+    linkedin: andy-beet-611017107
+    github: andybeet
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    zotero: beetpublications
+    researchgate: Andrew-Beet
+    google-scholar: andy-beet #xLF4sJ8AAAAJ
+    orcid: 0000-0001-8270-7090
+    goodreads: andy-beet # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Native
+
+    interests:
+      - item: Photography
+        link: http://www.bellophoto.com
+
+      - item: Hiking
+        link:
+
+      - item: Biking
+        link:
+
+      - item: Reading
+        link: http://www.goodreads.com/user/show/89097524-andy-beet
+
+      - item: Golf
+        link:
+
+      - item: Guitar
+        link: 
+
+
+
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
+education:
+    - degree: MPhil in Statistics
+      university: Swansea University
+      time: 1992 - 1993
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: BSc in Statistics
+      university: Swansea University
+      time: 1989 - 1992
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+experiences:
+    - role: Research Scientist & Analyst
+      time: 2020 - Present
+      company: IBSS, Silver Spring, MD
+      details: |
+        Seeking to help change the way research is done.
+        Adopting principles of open science (inclusion, fairness, sharing) to ensure reproducibility,
+        transparency, collaboration, and accountability. At the heart of all my research interests 
+        lies ecosystem based fisheries management (EBFM), managing resources to reflect the
+        relationships among all ecosystem components. I work in a collaborative environment
+        to aid in the development of software (mostly in R) and to develop statistical approaches 
+        to further the goal of managing an ecosystem as a whole.
+    - role: Scientific Programmer
+      time: 2016 - 2020
+      company: Integrated Statistics, Woods Hole, MA
+      details: |
+        Coordinate, collaborate, and develop statistical modelling software for use in support of
+        Ecosystem Based Fisheries Management objectives. Create publications for peer reviewed journals
+        and center documents. Implement versioning, documentation, naming standards on products.
+        Create software to enable standardized data retrieval from center databases. 
+        Lead workshops describing the use of tools used in open science principles (GitHub, R, markdown)
+        to best collaborate with others in a transparent and reproducible manner. Summer student supervision. 
+    - role: Research Assistant -> Information Systems Associate
+      time: 1996 - 2016
+      company: Woods Hole Oceanographic Institution, Woods Hole, MA
+      details: |
+        Statistical analysis, data analysis, model fitting, programming of scientific problems. 
+        Specifically; statistical analysis of ecological data, fitting ecological and statistical models,
+        simulating from models, parameter estimation and hypothesis testing. Writing for scientific 
+        publications, providing statistical assistance/advice. Database management and quality control.
+        Teach programming classes to undergraduate and postgraduate students with emphasis on the 
+        application of statistical models. Student supervision during summer months.
+
+        Troubleshooting PC and network related problems for department staff ranging from standard software 
+        issues to computer functionality, network configuration, security issues and purchase and installation 
+        of hardware and software.    
+    - role: Freelance Database designer
+      time: 2001 - 2002
+      company: Lobster Conservancy, Friendship, ME
+      details: |
+        Designer and creator of the Lobster Conservancy’s database. 
+        A non-profit corporation dedicated to protecting and preserving the American lobster 
+        and the traditional trap fishery it supports. The database enables volunteers from an
+        ongoing monitoring program to input field observations in a simple and efficient manner
+        and enable the users to extract information for research purposes.
+    - role: Web Designer/Photographer (Co-owner)
+      time: 2002 - Present
+      company: Bello Photography, Mashpee, MA
+      details: |  
+        Design and implementation of the business website and blog. From purchasing the domain names, 
+        listing with a registrar, hosting the sites, design, implement, test, and transfer content to servers.
+        Languages used - PHP, HTML, CSS    
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects or open source libraries in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      I have been an author or coauthor of over 30 publications in a variety of journals such as
+      Fisheries Oceanography, ICES Journal of Marine Science, Biology Letters, Journal of Water & Health,
+      Progress in Oceanography, Limnology & Oceanography, Journal of Agricultural, Biological, and Environmental Statistics,
+      Marine Ecology Progress Series, Frontiers in Marine Science, Journal of Applied Ecology plus many others.
+      To learn more about these publications check out:
+    resources:
+      - title: Zotero
+        link: https://www.zotero.org/groups/2845679/beetpublications/library
+        description: A Bibliography of all publications with links to journals.
+
+      - title: Google Scholar
+        link: https://scholar.google.com/citations?user=xLF4sJ8AAAAJ
+        description: List of publications (and citations to them) with accessible copies.
+
+      - title: Research Gate
+        link: https://www.researchgate.net/profile/Andrew-Beet
+        description: Professional network for scientists and researchers.
+
+      
+      
+
+aboutme:
+  title: About me
+  intro: >
+    I enjoy the outdoors. From hiking, mountain biking, bird watching, walking my dog, to travel. 
+    Travel is a passion. I love seeing new places, experiencing new cultures, tasting new cuisine,
+    and attempting to converse in other languages, although I am not fluent, or close to being,
+    in any language. I enjoy playing sports especially soccer and golf. I have played on many teams
+    through my life (1st Team – University Golf team, 1st Team – University Badminton team, O40’s Div. 2 Soccer Team).
+    I am equally as happy playing board games with friends and family. I am an avid photographer, 
+    especially when I travel, and like to read.
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: R, R packages
+        level: 90%
+
+      - name: Rmarkdown, Shiny
+        level: 90%
+
+      - name: MATLAB
+        level: 90%
+
+      - name: HTML & CSS
+        level: 80%
+
+      - name: Git/GitHub
+        level: 80%
+
+      - name: Photoshop/Lightroom
+        level: 70%
+
+      - name: Docker
+        level: 50%
+
+      - name: Jekyll
+        level: 30%
+    
+      - name: Fortran
+        level: 70%
+
+      - name: Perl
+        level: 50%
+
+      - name: C++
+        level: 50%
+
+      - name: HTML
+        level: 50%
+
+      - name: CSS
+        level: 50%
+
+      - name: PHP
+        level: 50%
+
+

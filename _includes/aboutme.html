@@ -1,0 +1,21 @@
+{% assign about = site.data.data.aboutme %}
+
+{% if about %}
+<section class="section aboutme-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-smile-wink fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ about.title }}
+  </h2>
+
+  {% if about.intro %}
+  <div class="intro">
+      <p>{{ about.intro }}</p>
+  </div><!--//intro-->
+  {% endif %}
+
+</section><!--//section-->
+{% endif %}
